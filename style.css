@@ -120,7 +120,7 @@ cite { font-weight: normal; color: #1d68b6; font-size: 14px; }
 }
 
 ul { margin: 20px 30px; padding: 0; }
-ul li { padding-bottom: 3px; margin-bottom: 2px; background: url(images/ul_list.png) no-repeat center left; }
+/* ul li { padding-bottom: 3px; margin-bottom: 2px; background: url(images/ul_list.png) no-repeat center left; } */
 ul li a { font-weight: normal; text-decoration: none; }
 
 /* header */

@@ -6,13 +6,14 @@
 <meta name="keywords" content="хакспейс, роботы, екатеринбурга, raspberrypi, arduino" />
 <meta name="description" content="Хакспейс Екатеринбурга - MakeitLab.ru" />
 <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
 
 <div id="templatemo_welcome_wrapper">
 	<div id="templatemo_welcome">
     
-		<div id="welcome_image"> <span></span> <img width="300" src="images2/makeitlab_robot.jpg" alt="image" /> </div> 	
+		<div id="welcome_image"> <span></span> <img width="300" id="logo_image" src="images2/makeitlab_robot.jpg" alt="image" /> </div> 	
         
         <div id="welcome_text">
         	<h1>Хакспейс Екатеринбурга MakeItLab</h1>
@@ -166,6 +167,31 @@
     
     </div>
 </div>
+
+<script>
+    
+$(document).ready(function(){
+  var images = [
+  'makeitlab_robot.jpg', 
+  'poprobot_case.jpg', 
+  'robotclass_draft.png', 
+  'robotclass_draft2.png', 
+  'robotclass_mini_arduino.jpg',
+  'robotclass_MR1_part.jpg',
+  'robotclass_MR1_part2.jpg',
+  'robotclass_MR1_part4.jpg',
+  'robotclass_RPi_breadboard.jpg',
+  'robotclass_stand.jpg',
+  'robotclass_stand_3d.jpg',
+  'robotclass_stand2.jpg',
+  'robotclass_TI1.jpg'];
+  $('#logo_image').attr({'src': 'images2/' + images[Math.floor(Math.random() * images.length)] });
+}
+)
+                    
+</script>
+
+<div id="banner"></div>
 
 </body>
 </html>
