@@ -391,6 +391,14 @@ ul li a { font-weight: normal; text-decoration: none; }
 	background: url(images/templatemo_sidebar_bg.png) repeat-y;
 }
 
+#templatemo_sidebar2 {
+	position: relative;
+	float: right;
+	width: 240px;
+	margin: 13px 0;
+	padding: 10px 20px;
+}
+
 #templatemo_sidebar .sidebar_top {
 	position: absolute;
 	top: -13px;
